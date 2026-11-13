@@ -86,7 +86,4 @@ birdnet 1.4.0 (BirdNET model 2.4), ai-edge-litert 2.3.0, PyAV 19.0.2, soundfile 
 statsmodels 0.15.0, pandas 3.0.5, NumPy 2.5.3. The analysis was run on Windows with Python 3.14
 and reproduced on Linux with Python 3.13 from the same detections file.
 
-## Note on AI assistance
 
-The scripts were drafted with the assistance of Claude (Anthropic). The authors ran the code, checked its
-output, and are responsible for the analysis.
