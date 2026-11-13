@@ -1,0 +1,13 @@
+# Audio and source data (download from Zenodo; see README)
+audio/
+data/
+*.flac
+*.zip
+annotations.csv
+species.csv
+# Run artefacts
+detections.csv.done
+detections.csv.failed.txt
+__pycache__/
+*.pyc
+/detections.csv

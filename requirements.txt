@@ -1,0 +1,7 @@
+birdnet==1.4.0
+ai-edge-litert>=2.3.0
+av>=19.0
+soundfile>=0.13
+numpy>=2.0
+pandas>=2.2
+statsmodels>=0.14
