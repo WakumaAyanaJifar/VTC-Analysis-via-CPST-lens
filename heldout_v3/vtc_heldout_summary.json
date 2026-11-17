@@ -1,0 +1,72 @@
+{
+ "settings": {
+  "p_star": 0.95,
+  "m": 50,
+  "folds": 5,
+  "n_boot": 1000,
+  "seed": 20261117,
+  "n_recordings": 33
+ },
+ "full_data": {
+  "n_used": 56,
+  "n_validated": 15,
+  "VTC": 0.268,
+  "VTC_detection_weighted": 0.623
+ },
+ "cross_validation": {
+  "n_validated_full": 15,
+  "n_meeting_pstar_heldout": 9,
+  "VTC_heldout": 0.161,
+  "species_below_pstar_heldout": [
+   "casvir",
+   "herwar",
+   "rebnut",
+   "warvir"
+  ],
+  "species_no_heldout_detections": [
+   "norfli",
+   "purfin"
+  ],
+  "median_heldout_precision": 0.958
+ },
+ "bootstrap": {
+  "VTC_median": 0.268,
+  "VTC_95ci": [
+   0.2,
+   0.321
+  ],
+  "VTC_weighted_95ci": [
+   0.447,
+   0.736
+  ],
+  "n_validated_species_stable_ge_0_9": 9,
+  "other_species_sometimes_validated": {
+   "yerwar": 0.442,
+   "chbchi": 0.282,
+   "cangoo": 0.269,
+   "daejun": 0.248,
+   "bnhcow": 0.217,
+   "mouqua": 0.182,
+   "hutvir": 0.088,
+   "foxspa": 0.075,
+   "btywar": 0.05,
+   "annhum": 0.046,
+   "spotow": 0.042,
+   "bkhgro": 0.038,
+   "pinsis": 0.033,
+   "pasfly": 0.031,
+   "naswar": 0.018
+  }
+ },
+ "lower_bound_criterion": {
+  "n_validated": 11,
+  "VTC": 0.196,
+  "VTC_detection_weighted": 0.509,
+  "dropped_vs_point_estimate": [
+   "mouchi",
+   "norfli",
+   "purfin",
+   "warvir"
+  ]
+ }
+}

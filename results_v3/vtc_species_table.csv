@@ -1,0 +1,57 @@
+ebird_code,common_name,n_annot_windows,n_detections,n_true_pos,precision_at_floor,status,validated,tau,b0,b1,n_kept,precision_kept,recall_windows
+gockin,Golden-crowned Kinglet,5838,4783,4512,0.9433409993727786,ok,True,0.7258720156623337,1.0559723095205218,2.601652397251815,3351.0,0.9689644882124739,0.5561836245289483
+amerob,American Robin,5647,4108,3437,0.8366601752677703,ok,True,0.617101377263385,-0.57018188330076,5.695370310228824,1601.0,0.9712679575265459,0.275367451744289
+herthr,Hermit Thrush,3450,3931,3115,0.792419231747647,ok,True,0.8383786228904385,-2.797375278112374,6.8487126228040385,2167.0,0.9824642362713428,0.6171014492753624
+mouchi,Mountain Chickadee,4528,3823,3236,0.8464556630918127,ok,True,0.9344964440502858,-0.11966765808913184,3.2788852828322694,163.0,0.9877300613496932,0.0355565371024735
+westan,Western Tanager,1715,1769,1179,0.6664782362916902,ok,True,0.8843122441980742,-2.0509079300676203,5.648849647857153,252.0,0.9682539682539683,0.1422740524781341
+orcwar,Orange-crowned Warbler,2516,1447,1265,0.8742225293711127,ok,True,0.6647727013057897,0.09363670877236925,4.288386488786828,579.0,0.9723661485319517,0.22376788553259142
+macwar,MacGillivray's Warbler,1215,1027,838,0.815968841285297,ok,True,0.8542666129528543,-1.6680211475864914,5.399321542965984,447.0,0.9888143176733781,0.36378600823045265
+rebnut,Red-breasted Nuthatch,1652,1002,845,0.843313373253493,ok,True,0.7323203327072939,0.24680003641857184,3.683687072807393,301.0,0.946843853820598,0.1725181598062954
+stejay,Steller's Jay,877,657,600,0.91324200913242,ok,True,0.7276004078466464,-0.03341565495170313,4.092706109018254,408.0,0.9779411764705882,0.4549600912200684
+herwar,Hermit Warbler,893,323,241,0.7461300309597523,ok,True,0.6870509543429408,-1.1946791285703224,6.024470356343795,100.0,0.99,0.11086226203807391
+warvir,Warbling Vireo,11,294,6,0.02040816326530612,ok,True,0.8483702721970723,-15.575099606269525,21.8295468292104,2.0,1.0,0.18181818181818182
+comrav,Common Raven,338,218,178,0.8165137614678899,ok,True,0.6742262080722192,-1.7021855189442991,6.891788605187266,105.0,0.9714285714285714,0.30177514792899407
+purfin,Purple Finch,217,183,116,0.6338797814207651,ok,True,0.9344007660081226,-1.3965603019637822,4.645757408435692,3.0,1.0,0.013824884792626729
+casvir,Cassin's Vireo,164,108,70,0.6481481481481481,ok,True,0.5508541159991811,-1.6353861014821576,8.31404349650971,23.0,0.9565217391304348,0.13414634146341464
+norfli,Northern Flicker,165,52,34,0.6538461538461539,ok,True,0.7355322986415646,-3.0260042529915356,8.11717343097595,20.0,1.0,0.12121212121212122
+bkhgro,Black-headed Grosbeak,2793,4072,2196,0.5392927308447937,p* not reached at any score,False,,-1.7546104184452143,3.4310549361878895,,,
+dusfly,Dusky Flycatcher,1998,2281,1661,0.7281893906181499,p* not reached at any score,False,,-2.0436568233384085,4.65189739424293,,,
+yerwar,Yellow-rumped Warbler,1552,1674,980,0.5854241338112306,p* reached only by extrapolation above observed scores,False,,-1.672960282149922,4.921669390988603,,,
+foxspa,Fox Sparrow,1739,1127,669,0.5936113575865128,p* not reached at any score,False,,-1.3233038252603262,3.8446069697553638,,,
+gnttow,Green-tailed Towhee,353,1050,161,0.15333333333333332,score not informative (slope <= 0),False,,-1.5510455117431816,-0.31274783383869703,,,
+mouqua,Mountain Quail,455,682,301,0.4413489736070381,p* not reached at any score,False,,-1.5045455681289335,3.081756982460228,,,
+pasfly,Pacific-slope Flycatcher,661,580,234,0.40344827586206894,p* not reached at any score,False,,-2.4199872824549407,4.247528309568848,,,
+spotow,Spotted Towhee,257,556,121,0.21762589928057555,p* not reached at any score,False,,-2.661658757747463,3.5222112677851545,,,
+daejun,Dark-eyed Junco,306,321,111,0.34579439252336447,p* not reached at any score,False,,-1.8140503956897152,4.468164217085813,,,
+brncre,Brown Creeper,98,285,20,0.07017543859649122,p* not reached at any score,False,,-4.5684988358277465,5.019634535182338,,,
+wlswar,Wilson's Warbler,147,185,101,0.5459459459459459,p* not reached at any score,False,,-2.5989114310447112,4.978555096405799,,,
+swathr,Swainson's Thrush,1,173,1,0.005780346820809248,fit failed (separation),False,,,,,,
+btywar,Black-throated Gray Warbler,136,157,40,0.25477707006369427,p* not reached at any score,False,,-2.861759010293017,4.326895636745886,,,
+olsfly,Olive-sided Flycatcher,19,108,7,0.06481481481481481,score not informative (slope <= 0),False,,-1.6972097347977468,-4.7886220920815425,,,
+houwre,House Wren,6,103,2,0.019417475728155338,p* not reached at any score,False,,-4.6271943902794375,3.0102247389696806,,,
+naswar,Nashville Warbler,102,99,27,0.2727272727272727,p* not reached at any score,False,,-2.069102888588206,3.2055412991055343,,,
+towwar,Townsend's Warbler,76,95,1,0.010526315789473684,score not informative (slope <= 0),False,,-0.6066654184017802,-27.13000602739199,,,
+hutvir,Hutton's Vireo,62,85,29,0.3411764705882353,p* not reached at any score,False,,-2.4693945875683676,4.56338136580784,,,
+whcspa,White-crowned Sparrow,8,79,0,0.0,no true positives,False,,,,,,
+wewpew,Western Wood-Pewee,1,74,1,0.013513513513513514,fit failed (separation),False,,,,,,
+evegro,Evening Grosbeak,18,67,7,0.1044776119402985,p* not reached at any score,False,,-3.160313442623789,2.399663164969726,,,
+bnhcow,Brown-headed Cowbird,63,66,30,0.45454545454545453,p* not reached at any score,False,,-2.371211218902312,5.197020396990362,,,
+redcro,Red Crossbill,1,59,1,0.01694915254237288,score not informative (slope <= 0),False,,-3.8278866992989378,-1.214091401524294,,,
+chbchi,Chestnut-backed Chickadee,38,54,21,0.3888888888888889,p* reached only by extrapolation above observed scores,False,,-3.5975478184288088,7.026415033760207,,,
+cangoo,Canada Goose,41,41,39,0.9512195121951219,fewer than m=50 verified clips,False,,,,,,
+annhum,Anna's Hummingbird,68,38,14,0.3684210526315789,fewer than m=50 verified clips,False,,,,,,
+pinsis,Pine Siskin,4,34,3,0.08823529411764706,fewer than m=50 verified clips,False,,,,,,
+towsol,Townsend's Solitaire,36,31,1,0.03225806451612903,fewer than m=50 verified clips,False,,,,,,
+casfin,Cassin's Finch,12,24,0,0.0,fewer than m=50 verified clips,False,,,,,,
+linspa,Lincoln's Sparrow,17,23,0,0.0,fewer than m=50 verified clips,False,,,,,,
+lazbun,Lazuli Bunting,11,22,0,0.0,fewer than m=50 verified clips,False,,,,,,
+vesspa,Vesper Sparrow,31,20,0,0.0,fewer than m=50 verified clips,False,,,,,,
+batpig1,Band-tailed Pigeon,15,17,7,0.4117647058823529,fewer than m=50 verified clips,False,,,,,,
+bewwre,Bewick's Wren,2,17,0,0.0,fewer than m=50 verified clips,False,,,,,,
+ruckin,Ruby-crowned Kinglet,7,16,0,0.0,fewer than m=50 verified clips,False,,,,,,
+acowoo,Acorn Woodpecker,28,13,12,0.9230769230769231,fewer than m=50 verified clips,False,,,,,,
+hamfly,Hammond's Flycatcher,2,11,0,0.0,fewer than m=50 verified clips,False,,,,,,
+moudov,Mourning Dove,4,10,4,0.4,fewer than m=50 verified clips,False,,,,,,
+amegfi,American Goldfinch,1,9,0,0.0,fewer than m=50 verified clips,False,,,,,,
+whhwoo,White-headed Woodpecker,15,4,1,0.25,fewer than m=50 verified clips,False,,,,,,
+wilsap,Williamson's Sapsucker,3,2,0,0.0,fewer than m=50 verified clips,False,,,,,,

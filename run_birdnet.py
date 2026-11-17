@@ -1,6 +1,8 @@
 """Step 1: run BirdNET v2.4 on the annotated Sierra Nevada soundscapes (Zenodo 10.5281/zenodo.7050014).
 
-Usage:  python run_birdnet.py <audio_dir> <species.csv> <out_csv>
+Usage:  python run_birdnet.py <audio_dir> <species.csv> <out_csv> [model_version]
+        model_version is 2.4 (default) or 3.0 (BirdNET+ V3.0 developer preview, ONNX backend;
+        needs: python -m pip install onnxruntime)
 
 Each recording is decoded completely into memory first and then passed to BirdNET, one file at a time.
 Five recordings in this dataset (SNE_006, 008, 014, 023, 032) cannot be read by libsndfile
@@ -25,7 +27,13 @@ except ImportError:
 MIN_CONF = 0.10
 
 
-def load_model():
+def load_model(version="2.4"):
+    if version == "3.0":
+        try:
+            return birdnet.load("acoustic", "3.0", "onnx")
+        except ValueError as e:
+            sys.exit("BirdNET 3.0 needs the ONNX runtime. Install it with:\n"
+                     "    python -m pip install onnxruntime\n\nDetails: " + str(e))
     # LiteRT (pip install ai-edge-litert) has wheels for Python 3.10-3.14 on Windows, macOS, and Linux.
     # TensorFlow is used only as a fallback (it has no Python 3.14 wheels).
     try:
@@ -68,8 +76,12 @@ def read_audio(path):
 
 def main():
     audio_dir, species_csv, out_csv = sys.argv[1:4]
+    version = sys.argv[4] if len(sys.argv) > 4 else "2.4"
+    if version not in ("2.4", "3.0"):
+        sys.exit("model_version must be 2.4 or 3.0")
 
-    model = load_model()
+    model = load_model(version)
+    print(f"BirdNET acoustic model {version}", flush=True)
     sci2label = {s.split("_")[0]: s for s in model.species_list}
     rows = list(csv.DictReader(open(species_csv, encoding="utf-8-sig")))
     label2code = {sci2label[r["Scientific Name"]]: r["Species eBird Code"] for r in rows}

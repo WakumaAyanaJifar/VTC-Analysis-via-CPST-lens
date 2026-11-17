@@ -5,9 +5,11 @@ data/
 *.zip
 annotations.csv
 species.csv
-# Run artefacts
-detections.csv.done
-detections.csv.failed.txt
+# Run artefacts at the top level (copies of the published results live in the subfolders)
+/detections.csv
+/detections_v3.csv
+*.done
+*.failed.txt
+/*.decoder_log.txt
 __pycache__/
 *.pyc
-/detections.csv

@@ -1,0 +1,16 @@
+ebird_code,tau_full,folds_with_threshold,heldout_kept,heldout_precision,heldout_ci_low,heldout_ci_high,heldout_meets_pstar,heldout_status,validated_lower_bound,validated_in_bootstrap_share,tau_ci_low,tau_ci_high
+amerob,0.617,5,1430,0.97,0.96,0.978,True,meets p*,True,0.999,0.505,0.736
+casvir,0.551,4,4,0.75,0.301,0.954,False,below p*,True,0.924,0.376,0.727
+comrav,0.674,5,95,0.958,0.897,0.984,True,meets p*,True,0.98,0.509,0.892
+gockin,0.726,5,3233,0.968,0.962,0.974,True,meets p*,True,0.953,0.525,0.928
+herthr,0.838,5,2092,0.98,0.974,0.986,True,meets p*,True,1.0,0.769,0.914
+herwar,0.687,5,67,0.896,0.8,0.948,False,below p*,True,0.938,0.49,0.905
+macwar,0.854,5,335,0.952,0.924,0.97,True,meets p*,True,0.879,0.648,0.958
+mouchi,0.934,4,207,0.957,0.919,0.977,True,meets p*,False,0.611,0.773,0.963
+norfli,0.736,0,0,,,,False,no held-out detections above tau,False,0.52,0.563,0.853
+orcwar,0.665,5,585,0.973,0.956,0.983,True,meets p*,True,0.985,0.541,0.877
+purfin,0.934,3,0,,,,False,no held-out detections above tau,False,0.526,0.721,0.935
+rebnut,0.732,5,282,0.943,0.91,0.965,False,below p*,True,0.988,0.58,0.915
+stejay,0.728,5,395,0.977,0.957,0.988,True,meets p*,True,0.985,0.501,0.926
+warvir,0.848,4,1,0.0,0.0,0.793,False,below p*,False,0.493,0.695,0.882
+westan,0.884,4,106,0.972,0.92,0.99,True,meets p*,True,0.739,0.733,0.96

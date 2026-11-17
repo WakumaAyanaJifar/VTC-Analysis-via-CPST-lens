@@ -1,0 +1,82 @@
+{
+ "settings": {
+  "p_star": 0.95,
+  "m": 50,
+  "folds": 5,
+  "n_boot": 1000,
+  "seed": 20261117,
+  "n_recordings": 33
+ },
+ "full_data": {
+  "n_used": 53,
+  "n_validated": 19,
+  "VTC": 0.358,
+  "VTC_detection_weighted": 0.564
+ },
+ "cross_validation": {
+  "n_validated_full": 19,
+  "n_meeting_pstar_heldout": 12,
+  "VTC_heldout": 0.226,
+  "species_below_pstar_heldout": [
+   "macwar",
+   "norfli"
+  ],
+  "species_no_heldout_detections": [
+   "btywar",
+   "cangoo",
+   "casvir",
+   "naswar",
+   "spotow"
+  ],
+  "median_heldout_precision": 0.981
+ },
+ "bootstrap": {
+  "VTC_median": 0.346,
+  "VTC_95ci": [
+   0.269,
+   0.429
+  ],
+  "VTC_weighted_95ci": [
+   0.363,
+   0.751
+  ],
+  "n_validated_species_stable_ge_0_9": 6,
+  "other_species_sometimes_validated": {
+   "yerwar": 0.448,
+   "towwar": 0.413,
+   "daejun": 0.373,
+   "westan": 0.337,
+   "hutvir": 0.269,
+   "whhwoo": 0.259,
+   "gockin": 0.235,
+   "bnhcow": 0.224,
+   "pasfly": 0.17,
+   "rebnut": 0.107,
+   "gnttow": 0.087,
+   "mouqua": 0.029,
+   "vesspa": 0.025,
+   "bkhgro": 0.01,
+   "brncre": 0.004,
+   "acowoo": 0.001
+  }
+ },
+ "lower_bound_criterion": {
+  "n_validated": 7,
+  "VTC": 0.132,
+  "VTC_detection_weighted": 0.361,
+  "dropped_vs_point_estimate": [
+   "annhum",
+   "btywar",
+   "casvir",
+   "dusfly",
+   "herwar",
+   "macwar",
+   "naswar",
+   "norfli",
+   "orcwar",
+   "purfin",
+   "spotow",
+   "wlswar"
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+ebird_code,common_name_v2.4,n_detections_v2.4,n_detections_v3.0,status_v2.4,status_v3.0,tau_v2.4,tau_v3.0
+mouchi,Mountain Chickadee,11047,3823,ok,ok,0.9436142635543296,0.9344964440502858
+amerob,American Robin,8175,4108,ok,ok,0.9559288257013416,0.617101377263385
+foxspa,Fox Sparrow,6505,1127,ok,p* not reached at any score,0.924170773614431,
+dusfly,Dusky Flycatcher,5322,2281,ok,p* not reached at any score,0.9951765098380898,
+herthr,Hermit Thrush,4854,3931,ok,ok,0.9506614887776432,0.8383786228904385
+orcwar,Orange-crowned Warbler,4667,1447,ok,ok,0.97181970473754,0.6647727013057897
+macwar,MacGillivray's Warbler,4292,1027,ok,ok,0.9647854607009048,0.8542666129528543
+herwar,Hermit Warbler,1803,323,ok,ok,0.9160944944910858,0.6870509543429408
+stejay,Steller's Jay,881,657,ok,ok,0.6765360289813511,0.7276004078466464
+spotow,Spotted Towhee,597,556,ok,p* not reached at any score,0.9262123174827288,
+comrav,Common Raven,501,218,ok,ok,0.7861400292888268,0.6742262080722192
+purfin,Purple Finch,425,183,ok,ok,0.9499092794087322,0.9344007660081226
+norfli,Northern Flicker,223,52,ok,ok,0.8772717710874365,0.7355322986415646
+btywar,Black-throated Gray Warbler,221,157,ok,p* not reached at any score,0.7818021083122145,
+casvir,Cassin's Vireo,164,108,ok,ok,0.7907888609872533,0.5508541159991811
+wlswar,Wilson's Warbler,152,185,ok,p* not reached at any score,0.8461008117999518,
+annhum,Anna's Hummingbird,97,38,ok,fewer than m=50 verified clips,0.7490978928978775,
+cangoo,Canada Goose,78,41,ok,fewer than m=50 verified clips,0.6458550149379237,
+naswar,Nashville Warbler,58,99,ok,p* not reached at any score,0.6815873109693183,
+gockin,Golden-crowned Kinglet,11243,4783,p* not reached at any score,ok,,0.7258720156623337
+rebnut,Red-breasted Nuthatch,7277,1002,p* not reached at any score,ok,,0.7323203327072939
+bkhgro,Black-headed Grosbeak,5885,4072,p* not reached at any score,p* not reached at any score,,
+westan,Western Tanager,4556,1769,p* not reached at any score,ok,,0.8843122441980742
+yerwar,Yellow-rumped Warbler,3896,1674,p* not reached at any score,p* reached only by extrapolation above observed scores,,
+pasfly,Pacific-slope Flycatcher,1336,580,p* not reached at any score,p* not reached at any score,,
+mouqua,Mountain Quail,1325,682,p* not reached at any score,p* not reached at any score,,
+gnttow,Green-tailed Towhee,1146,1050,p* not reached at any score,score not informative (slope <= 0),,
+daejun,Dark-eyed Junco,717,321,p* not reached at any score,p* not reached at any score,,
+towsol,Townsend's Solitaire,397,31,p* not reached at any score,fewer than m=50 verified clips,,
+evegro,Evening Grosbeak,168,67,p* not reached at any score,p* not reached at any score,,
+bnhcow,Brown-headed Cowbird,162,66,p* not reached at any score,p* not reached at any score,,
+towwar,Townsend's Warbler,146,95,p* reached only by extrapolation above observed scores,score not informative (slope <= 0),,
+olsfly,Olive-sided Flycatcher,109,108,p* not reached at any score,score not informative (slope <= 0),,
+brncre,Brown Creeper,49,285,fewer than m=50 verified clips,p* not reached at any score,,
+vesspa,Vesper Sparrow,44,20,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+batpig1,Band-tailed Pigeon,41,17,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+whhwoo,White-headed Woodpecker,38,4,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+hutvir,Hutton's Vireo,37,85,fewer than m=50 verified clips,p* not reached at any score,,
+chbchi,Chestnut-backed Chickadee,23,54,fewer than m=50 verified clips,p* reached only by extrapolation above observed scores,,
+acowoo,Acorn Woodpecker,20,13,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+hamfly,Hammond's Flycatcher,15,11,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+casfin,Cassin's Finch,10,24,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+warvir,Warbling Vireo,8,294,fewer than m=50 verified clips,ok,,0.8483702721970723
+lazbun,Lazuli Bunting,5,22,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+amegfi,American Goldfinch,4,9,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+swathr,Swainson's Thrush,4,173,fewer than m=50 verified clips,fit failed (separation),,
+linspa,Lincoln's Sparrow,3,23,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+moudov,Mourning Dove,3,10,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+houwre,House Wren,2,103,fewer than m=50 verified clips,p* not reached at any score,,
+wilsap,Williamson's Sapsucker,2,2,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+ruckin,Ruby-crowned Kinglet,1,16,fewer than m=50 verified clips,fewer than m=50 verified clips,,
+wewpew,Western Wood-Pewee,1,74,fewer than m=50 verified clips,fit failed (separation),,
+whcspa,White-crowned Sparrow,1,79,fewer than m=50 verified clips,no true positives,,
+bewwre,Bewick's Wren,0,17,not detected,fewer than m=50 verified clips,,
+pinsis,Pine Siskin,0,34,not detected,fewer than m=50 verified clips,,
+redcro,Red Crossbill,0,59,not detected,score not informative (slope <= 0),,

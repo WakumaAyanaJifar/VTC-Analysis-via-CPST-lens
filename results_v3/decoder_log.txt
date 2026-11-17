@@ -1,0 +1,5 @@
+SNE_006_20180509_170000.flac	ffmpeg	60.00 min
+SNE_008_20180509_190001.flac	ffmpeg	60.00 min
+SNE_014_20180510_170000.flac	ffmpeg	60.00 min
+SNE_023_20180523_170000.flac	ffmpeg	60.00 min
+SNE_032_20180529_170000.flac	ffmpeg	60.00 min

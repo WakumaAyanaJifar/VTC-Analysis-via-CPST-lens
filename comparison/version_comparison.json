@@ -1,0 +1,147 @@
+{
+ "v2.4": {
+  "n_detections": 88736,
+  "precision_at_floor": 0.398,
+  "n_used": 53,
+  "n_validated": 19,
+  "VTC": 0.358,
+  "VTC_detection_weighted": 0.564,
+  "median_recall_validated": 0.183
+ },
+ "v3.0": {
+  "n_detections": 38089,
+  "precision_at_floor": 0.695,
+  "n_used": 56,
+  "n_validated": 15,
+  "VTC": 0.268,
+  "VTC_detection_weighted": 0.623,
+  "median_recall_validated": 0.182
+ },
+ "validated_in_both": [
+  "amerob",
+  "casvir",
+  "comrav",
+  "herthr",
+  "herwar",
+  "macwar",
+  "mouchi",
+  "norfli",
+  "orcwar",
+  "purfin",
+  "stejay"
+ ],
+ "validated_only_v2.4": [
+  "annhum",
+  "btywar",
+  "cangoo",
+  "dusfly",
+  "foxspa",
+  "naswar",
+  "spotow",
+  "wlswar"
+ ],
+ "validated_only_v3.0": [
+  "gockin",
+  "rebnut",
+  "warvir",
+  "westan"
+ ],
+ "jaccard_validated_sets": 0.478,
+ "median_abs_tau_change_in_both": 0.112,
+ "sensitivity": {
+  "v2.4": [
+   [
+    0.9,
+    20,
+    0.566
+   ],
+   [
+    0.9,
+    50,
+    0.509
+   ],
+   [
+    0.9,
+    100,
+    0.453
+   ],
+   [
+    0.95,
+    20,
+    0.396
+   ],
+   [
+    0.95,
+    50,
+    0.358
+   ],
+   [
+    0.95,
+    100,
+    0.302
+   ],
+   [
+    0.99,
+    20,
+    0.094
+   ],
+   [
+    0.99,
+    50,
+    0.057
+   ],
+   [
+    0.99,
+    100,
+    0.019
+   ]
+  ],
+  "v3.0": [
+   [
+    0.9,
+    20,
+    0.429
+   ],
+   [
+    0.9,
+    50,
+    0.393
+   ],
+   [
+    0.9,
+    100,
+    0.339
+   ],
+   [
+    0.95,
+    20,
+    0.286
+   ],
+   [
+    0.95,
+    50,
+    0.268
+   ],
+   [
+    0.95,
+    100,
+    0.25
+   ],
+   [
+    0.99,
+    20,
+    0.071
+   ],
+   [
+    0.99,
+    50,
+    0.054
+   ],
+   [
+    0.99,
+    100,
+    0.054
+   ]
+  ]
+ }
+}
